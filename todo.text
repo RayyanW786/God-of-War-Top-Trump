@@ -1,0 +1,14 @@
+pygame ui
+login / sign up
+after login create game room or join game room option
+provides code or enter code
+join game 
+start game once 2 or more players
+randomly choose an attribute to use for card comparison in the round
+allow to choose which card to use in that round
+each player can only see their cards
+once they put cards down whoever had the better stats wins that round
+once someone has no more cards they are removed from the game and if no more players game ends
+game shows winner
+scores tracked (sql)
+
