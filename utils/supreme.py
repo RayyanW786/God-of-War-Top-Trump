@@ -2,7 +2,7 @@ import discord
 from discord import commands
 import asyncio
 import datetime
-from discord.ui import View, Button
+from discord.ui import View, buton
 
 BUTTON_COOLDOWN = {}
 
@@ -27,6 +27,13 @@ def get_cooldown(guild: str, user: str) -> int:
 class BaseVerification(View):
   def __init__(self, roles, emojis):
     super().__init__(timeout = None)
+  
+  @buton(label = "Verify)
+   async def _starter(self, button: discord.ui.Button, interaction: discord.Interaction):
+         auth_roles = [r.id for r in interaction.user]
+         
+        
+   
 
 class Supreme(commands.Cog):
   def __init__(self, bot):
