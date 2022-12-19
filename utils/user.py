@@ -1,4 +1,4 @@
-from db import DBUtils
+from .db import DBUtils
 from typing import Union
 from fuzzywuzzy import fuzz
 from dataclasses import dataclass

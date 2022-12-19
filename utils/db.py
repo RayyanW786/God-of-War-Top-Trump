@@ -3,7 +3,7 @@ from typing import Union
 
 class DBUtils(object):
     def __init__(self):
-        self.conn = sqlite3.connect('utils\data.db')
+        self.conn = sqlite3.connect('utils/data.db')
         self.conn.execute("PRAGMA foreign_keys = 1")
         self.cursor = self.conn.cursor()
     #    self.current_id = self.get_id()
