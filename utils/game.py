@@ -5,6 +5,12 @@ class Game(object):
         self.players: list = []
         self.cardsobj: Cards = Cards(self.players)
         self.started: bool = False
+    
+    def reset(self):
+        self.players = []
+        self.started = False
+        self.cardsobj = Cards(self.players)
+
         
     def add_player(self, name: str) -> bool:
         if name not in self.players:
@@ -26,14 +32,14 @@ class Game(object):
         self.player_before = self.current_player
         self.card_index = 0
         self.round = 1
-        self.all_players = self.players
+        self.all_players = self.players[:]
     
     def next_player(self):
         self.check()
         try:
             index = self.players.index(self.current_player)
         except Exception:
-            return False
+            index = self.old_index-1
         try:
             self.current_player = self.players[index+1]
             self.card_index = 0
@@ -44,6 +50,7 @@ class Game(object):
     def check(self):
         for player in self.cardsobj.Player_Decs:
             if self.cardsobj.Player_Decs[player] == [] and player in self.players:
+                self.old_index = self.players.index(player)
                 self.players.remove(player)
     
     def check_game_winner(self) -> Union[bool, list[str, int]]:

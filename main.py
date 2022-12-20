@@ -385,6 +385,7 @@ while run:
             create_text_surface(*WINNER_TEXT[0])
         else:
             WINNER_TEXT = []
+            Gameobj.reset()
             welcome_back_action()
         
     if len(ROUND_WINNER_TEXT) >=1:

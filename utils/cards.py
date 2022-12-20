@@ -183,7 +183,7 @@ class Cards(object):
         attr = self.choices[self.current_choice]
         best: Base = temp[0]
         for card in temp[1:]:
-            if self.current_choice == 8:
+            if self.current_choice == 6:
                 if card.__getattribute__(attr) < best.__getattribute__(attr):
                     best = card
             else:
