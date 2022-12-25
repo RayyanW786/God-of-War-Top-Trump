@@ -249,7 +249,7 @@ def register_action(username: str, password: str):
             INPUTBOXES = []
             txt = "Logged in successfully"
             PERSISTENT_TEXT.append([txt, BLACK, create_input_box(280, 50, len(txt)*10, 100)])
-            PERSISTENT_BUTTONS.extend([[175, 200, 175, 100, "Create Lobby", BLURPLE], [425, 200, 175, 100, "Previous Winners", BLURPLE]])
+            PERSISTENT_BUTTONS.extend([[175, 200, 175, 100, "Create Lobby", BLURPLE, create_lobby], [425, 200, 175, 100, "Previous Winners", BLURPLE]])
 
     else:
         title = res[0]
@@ -282,7 +282,7 @@ def welcome_back_action():
     PERSISTENT_TEXT.append([txt, BLACK, create_input_box(280, 50, len(txt)*10, 100)])
     PERSISTENT_BUTTONS.extend([[175, 200, 175, 100, "Create Lobby", BLURPLE, create_lobby], [425, 200, 175, 100, "Previous Winners", BLURPLE]])
     
-        
+    
 while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
