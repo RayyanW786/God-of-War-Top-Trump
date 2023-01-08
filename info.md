@@ -20,12 +20,11 @@ Valkrie:
 - Hildr
 - Gondul
 - Sigrun, the Valkyrie Queen
-^ (Giants side)
+- (Giants side)
 - Hrist and Mist (Aesir)
 
 Elfs:
 - Dark Elve King
-- Light Elve King
 
 Dwarfs:
 - Brok
