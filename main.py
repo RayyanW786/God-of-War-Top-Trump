@@ -1,9 +1,9 @@
 import pygame
-from utils.user import UserUtils
+from user import UserUtils
 import string
-from utils.game import Game
+from game import Game
 import time
-from utils.cards import Base
+from cards import Base
 import datetime
 
 pygame.init()

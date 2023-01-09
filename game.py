@@ -1,4 +1,4 @@
-from .cards import Cards
+from cards import Cards
 from typing import Union
 class Game(object):
     def __init__(self):

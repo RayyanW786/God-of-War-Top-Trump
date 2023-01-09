@@ -130,7 +130,7 @@ class Tyr(Gods):
     He is a son of Odin, younger brother of Thor
     """
     def __init__(self):
-        super().__init__(strength=321, defence=331, runic=256, vitality=173, cooldown=21, side="Giants")
+        super().__init__(strength=321, defence=331, runic=256, vitality=173, luck=82, cooldown=21, side="Giants")
 
 class Jormungandr(Giants):
     """
@@ -138,7 +138,7 @@ class Jormungandr(Giants):
     is a mythical Jötunn serpent destined to fight Thor come Ragnarök.
     """
     def __init__(self):
-        super().__init__(strength=786, defence=420, runic=76, vitality=123, cooldown = 0, side="Giants")
+        super().__init__(strength=786, defence=420, runic=76, vitality=123, luck=73, cooldown = 0, side="Giants")
 
 class Angrboda(Giants):
     """
@@ -146,7 +146,7 @@ class Angrboda(Giants):
     She is the mate of Loki and the mother of monsters.
     """
     def __init__(self):
-        super().__init__(strength=64, defence=71, runic=110, vitality=157, cooldown=32, side="Giants")
+        super().__init__(strength=64, defence=71, runic=110, vitality=157, luck=92, cooldown=32, side="Giants")
 
 class Eir(Valkyries):
     """
@@ -155,7 +155,7 @@ class Eir(Valkyries):
     She healed the wounds of both mortals and gods.
     """
     def __init__(self):
-        super().__init__(strength=269, defence=296, runic=101, vitality=111, cooldown=32, side="Aesir")
+        super().__init__(strength=269, defence=296, runic=101, vitality=111, luck=77, cooldown=32, side="Aesir")
 
 class Gunnr(Valkyries):
     """
@@ -165,7 +165,7 @@ class Gunnr(Valkyries):
     She was one of his favorites
     """
     def __init__(self):
-        super().__init__(strength=279, defence=297, runic=107, vitality=121, cooldown=12, side="Aesir")
+        super().__init__(strength=279, defence=297, runic=107, vitality=121, luck=76, cooldown=12, side="Aesir")
 
 class Olrun(Valkyries):
     """
@@ -174,7 +174,7 @@ class Olrun(Valkyries):
     Odin appointed her as the Valkyrie's resident historian.
     """
     def __init__(self):
-        super().__init__(strength=289, defence=298, runic=111, vitality=127, cooldown=33, side="Aesir")
+        super().__init__(strength=289, defence=298, runic=111, vitality=127, luck=101, cooldown=33, side="Aesir")
 
 class Rota(Valkyries):
     """
@@ -184,7 +184,7 @@ class Rota(Valkyries):
     Mostly others.
     """
     def __init__(self):
-        super().__init__(strength=299, defence=291, runic=213, vitality=113, cooldown=29, side="Aesir")
+        super().__init__(strength=299, defence=291, runic=213, vitality=113, luck=109, cooldown=29, side="Aesir")
 
 class Hildr(Valkyries):
     """
@@ -194,7 +194,7 @@ class Hildr(Valkyries):
     I wonder what will become of her, now that she's free.
     """
     def __init__(self):
-        super().__init__(strength=267, defence=299, runic=164, vitality=142, cooldown=27, side="Aesir")
+        super().__init__(strength=267, defence=299, runic=164, vitality=142, luck=116, cooldown=27, side="Aesir")
 
 class Gondul(Valkyries):
     """
@@ -204,7 +204,7 @@ class Gondul(Valkyries):
         as insanity is not a welcome trait in Valhalla.
     """
     def __init__(self):
-        super().__init__(strength=215, defence=301, runic=145, vitality=133, cooldown=24, side="Aesir")
+        super().__init__(strength=215, defence=301, runic=145, vitality=133, luck = 124, cooldown=24, side="Aesir")
 
 class Sigrun(Valkyries):
     """
@@ -213,7 +213,7 @@ class Sigrun(Valkyries):
         Sigrún grudgingly took the position in her stead.
     """
     def __init__(self):
-        super().__init__(strength=356, defence=345, runic=173, vitality=178, cooldown=7, side="Giants")
+        super().__init__(strength=356, defence=345, runic=173, vitality=178, luck=247, cooldown=7, side="Giants")
         
 class Hrist(Valkyries):
     """
@@ -221,7 +221,7 @@ class Hrist(Valkyries):
     It is a pity their fealty to Odin is by choice, and not a corruption abated by their death.
     """
     def __init__(self):
-        super().__init__(strength=257, defence=312, runic=133, vitality=164, cooldown=39, side="Aesir")
+        super().__init__(strength=257, defence=312, runic=133, vitality=164, luck=217, cooldown=39, side="Aesir")
 
 class Mist(Valkyries):
     """
@@ -229,7 +229,7 @@ class Mist(Valkyries):
     It is a pity their fealty to Odin is by choice, and not a corruption abated by their death.
     """
     def __init__(self):
-        super().__init__(strength=298, defence=309, runic=123, vitality=154, cooldown=41, side="Aesir")
+        super().__init__(strength=298, defence=309, runic=123, vitality=154, luck=199, cooldown=41, side="Aesir")
 
 
 class Svartaljofurr(Elfs):
@@ -237,7 +237,7 @@ class Svartaljofurr(Elfs):
     King of the Dark Elves, Svartáljǫfurr leads the war against the Light Elves for the Light of Alfheim,
     """
     def __init__(self):
-        super().__init__(strength=317, defence=311, runic=217, vitality=126, cooldown=36, side = "Giants")
+        super().__init__(strength=317, defence=311, runic=217, vitality=126, luck=204, cooldown=36, side = "Giants")
 
 
 
